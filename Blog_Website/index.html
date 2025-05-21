@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>My Blog</h1>
+            </div>
+            <button class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-container">
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#posts">Posts</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search posts...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-posts">
+            <article class="post" id="post1">
+                <div class="post-header">
+                    <h2>The Future of Web Development</h2>
+                    <div class="post-meta">
+                        <span class="date">March 15, 2025</span>
+                        <span class="category">Technology</span>
+                    </div>
+                </div>
+                <div class="post-image">
+                    <img src="https://picsum.photos/800/400" alt="Web Development">
+                </div>
+                <div class="post-content">
+                    <p>Web development continues to evolve at a rapid pace. With the emergence of new frameworks and technologies, developers are constantly finding innovative ways to create better user experiences...</p>
+                </div>
+                <div class="post-footer">
+                    <div class="social-share">
+                        <button><i class="fab fa-facebook"></i></button>
+                        <button><i class="fab fa-twitter"></i></button>
+                        <button><i class="fab fa-linkedin"></i></button>
+                    </div>
+                </div>
+                <div class="comments-section">
+                    <h3>Comments</h3>
+                    <div class="comment-form">
+                        <input type="text" placeholder="Your name" class="comment-name">
+                        <textarea placeholder="Your comment" class="comment-text"></textarea>
+                        <button class="submit-comment">Post Comment</button>
+                    </div>
+                    <div class="comments-list">
+                        <!-- Comments will be dynamically added here -->
+                    </div>
+                </div>
+            </article>
+
+            <article class="post" id="post2">
+                <div class="post-header">
+                    <h2>Getting Started with JavaScript</h2>
+                    <div class="post-meta">
+                        <span class="date"><i class="far fa-calendar-alt"></i>March 10, 2025</span>
+                        <span class="category"><i class="fab fa-js"></i>Programming</span>
+                    </div>
+                </div>
+                <div class="post-image">
+                    <img src="https://picsum.photos/800/401" alt="JavaScript">
+                </div>
+                <div class="post-content">
+                    <p>JavaScript is one of the most popular programming languages in the world. Its versatility and ease of use make it an excellent choice for both beginners and experienced developers...</p>
+                </div>
+                <div class="post-footer">
+                    <div class="social-share">
+                        <button><i class="fab fa-facebook"></i></button>
+                        <button><i class="fab fa-twitter"></i></button>
+                        <button><i class="fab fa-linkedin"></i></button>
+                    </div>
+                </div>
+                <div class="comments-section">
+                    <h3>Comments</h3>
+                    <div class="comment-form">
+                        <input type="text" placeholder="Your name" class="comment-name">
+                        <textarea placeholder="Your comment" class="comment-text"></textarea>
+                        <button class="submit-comment">Post Comment</button>
+                    </div>
+                    <div class="comments-list">
+                        <!-- Comments will be dynamically added here -->
+                    </div>
+                </div>
+            </article>
+
+            <article class="post" id="post3">
+                <div class="post-header">
+                    <h2>CSS Best Practices</h2>
+                    <div class="post-meta">
+                        <span class="date">March 5, 2025</span>
+                        <span class="category">Design</span>
+                    </div>
+                </div>
+                <div class="post-image">
+                    <img src="https://picsum.photos/800/402" alt="CSS">
+                </div>
+                <div class="post-content">
+                    <p>CSS is the language that brings style to your web pages. Understanding best practices in CSS can help you create more maintainable and efficient stylesheets...</p>
+                </div>
+                <div class="post-footer">
+                    <div class="social-share">
+                        <button><i class="fab fa-facebook"></i></button>
+                        <button><i class="fab fa-twitter"></i></button>
+                        <button><i class="fab fa-linkedin"></i></button>
+                    </div>
+                </div>
+                <div class="comments-section">
+                    <h3>Comments</h3>
+                    <div class="comment-form">
+                        <input type="text" placeholder="Your name" class="comment-name">
+                        <textarea placeholder="Your comment" class="comment-text"></textarea>
+                        <button class="submit-comment">Post Comment</button>
+                    </div>
+                    <div class="comments-list">
+                        <!-- Comments will be dynamically added here -->
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="contact" class="contact-section" style="display: none;">
+            <div class="contact-container">
+                <h2>Contact Information</h2>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Email: <a href="mailto:vsaxena6504@gmail.com">vsaxena6504@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>Phone: <a href="tel:+919554415447">+91 9554415447</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>A blog about web development, programming, and design.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:vsaxena6504@gmail.com">vsaxena6504@gmail.com</a></p>
+                <p>Phone: <a href="tel:+919554415447">+91 9554415447</a></p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
